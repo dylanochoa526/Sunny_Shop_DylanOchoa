@@ -1,0 +1,62 @@
+@import "_variables";
+@import "_tarjetas";
+@import "_nav";
+@import "_footer";
+@import "_header";
+@import "_media";
+@import "_botones";
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #FAD746 !important;
+    font-size: 30px;
+}
+
+.Titulo {
+    width: 100%;
+    height: 40;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: Oswald;
+    color: $color1;
+    -webkit-text-stroke: 1px black;
+} 
+
+
+
+main {
+    background-image: url(../img/8f8be1d487e8491a7bdb7b20c09fd2f3.jpg);
+}
+
+
+
+.btn {
+    width: 100px;
+    background-color: #FB342D;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #FAD746;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    background-color: #FB342D;
+    color: rgb(255, 255, 255);
+    font-family: Oswald;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    color: #FAD746;
+}
+

@@ -1,0 +1,21 @@
+header {
+    background-image: url(../img/banner-3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Oswald;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 50px;
+    color: #FAD746;
+}
+header h1{
+    font-size: 80px;
+    -webkit-text-stroke: 1px black;
+}

@@ -1,0 +1,16 @@
+footer {
+    grid-area: footer;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    padding: 10px;
+    background-color: $color2;
+    color: rgb(255, 255, 255);
+    font-family: Oswald;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        color: $color1;
+    }
+}

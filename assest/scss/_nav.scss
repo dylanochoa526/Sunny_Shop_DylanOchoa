@@ -1,0 +1,27 @@
+@import "_variables";
+
+.navbar{
+    background-color: #FB342D !important;
+}
+.navbar  a{
+    position: relative;
+    font-family: Oswald;
+    -webkit-text-stroke: 0.7px black; 
+}
+.navbar a::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #FAD746;
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.navbar  a:hover::before{
+    transform: scale(1);
+}

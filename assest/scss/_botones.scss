@@ -1,0 +1,12 @@
+.btn {
+    width:map-get($boton , width );
+    background-color: $color2;
+    border: map-get($boton ,borde  );
+    padding: map-get($boton ,padding  );
+    border-radius: map-get($boton ,radio  );
+    color: $color1;
+    margin: map-get($boton ,margen  );
+}
+.boton-noticias{
+    @extend .btn
+}

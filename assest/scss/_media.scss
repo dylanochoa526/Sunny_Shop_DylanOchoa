@@ -1,0 +1,55 @@
+@media (max-width: 880px) {
+
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px auto auto 100px;
+        grid-template-areas: "nav    nav"
+            "header header"
+            "main   main"
+            "footer footer";
+    }
+
+    .menu {
+        height: auto;
+        font-size: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+
+    }
+    header{
+        font-size: 25px;
+    }
+    
+
+    footer {
+        height: auto;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .caja{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .mapa{
+        font-size: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+
+    }
+}
